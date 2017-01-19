@@ -1,0 +1,8 @@
+.DS_Store
+2015/.DS_Store
+2015/node_modules
+2015/dist
+2016/.DS_Store
+2016/node_modules
+2016/dist
+/npm-debug.log
