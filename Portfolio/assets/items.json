@@ -677,6 +677,19 @@
             "technology": ""
         },
         {
+            "type": "website",
+            "title": "Lukkien: Cetabever verkooppunten",
+            "image": "assets/images/items/web_cetabever_lukkien.jpg",
+            "year": "2014",
+            "video": "",
+            "videoUrl": "",
+            "videoType": "",
+            "description":"Voor de website van Cetabever heb ik met google maps een store-finder ontwikkeld. Deze haalt informatie over de locaties op uit een api en plaatst ze op de kaart.",
+            "link": "http://www.cetabever.nl/verkooppunten",
+            "client": "Cetabever",
+            "technology": "Google maps Api - javascript - jQuery - HTML - CSS"
+        },
+        {
             "type": "overig",
             "title": "Lukkien: PON Renders",
             "image": "assets/images/items/overig_ponrenders_lukkien.jpg",
