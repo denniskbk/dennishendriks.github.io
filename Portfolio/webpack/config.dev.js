@@ -1,27 +1,34 @@
 import BrowserSyncPlugin from 'browser-sync-webpack-plugin';
+import SassLintPlugin from 'sasslint-webpack-plugin';
 import base, { source } from './config.base';
+
 
 const config = base('development');
 
-// development overrides go here
 config.watch = true;
-// config.devtool = 'cheap-module-eval-source-map';
-config.devtool = 'inline-source-map'; // See http://webpack.github.io/docs/configuration.html#devtool
+config.devtool = 'inline-source-map';
 
-// // append linting options
-// config.eslint = {
-//     configFile: '.eslintrc'
-// };
-//
-// config.module.loaders = config.module.loaders.concat([
-//     {
-//         test: /\.js$/,
-//         include: [ source ],
-//         loader: 'eslint-loader'
-//     }
-// ]);
-//
+config.eslint = {
+    configFile: '.eslintrc'
+};
+
+config.module.loaders = config.module.loaders.concat([
+    {
+        test: /\.js$/,
+        include: [ source ],
+        loader: 'eslint-loader'
+    }
+]);
+
 config.plugins = config.plugins.concat([
+    new SassLintPlugin({
+        configFile: '.sass-lint.yml',
+        context: [ source ],
+        quiet: false,
+        failOnWarning: false,
+        failOnError: false,
+        testing: false
+    }),
     new BrowserSyncPlugin({
         host: 'localhost',
         port: 3000,

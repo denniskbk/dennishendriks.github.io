@@ -1,1 +1,5 @@
-Portfolio/node_modules
+.DS_Store
+/Portfolio/.DS_Store
+/Portfolio/dist/.DS_Store
+/Portfolio/node_modules
+/npm-debug.log

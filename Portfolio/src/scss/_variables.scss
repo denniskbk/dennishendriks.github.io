@@ -1,0 +1,20 @@
+/* variables */
+$color-white: #FFF;
+$color-black: #000;
+$color-red: #FF0000;
+$color-green: #008800;
+$color-blue: #0000FF;
+$color-lightgrey: #E5E5E5;
+$color-dark-grey: #606060;
+$color-darkgrey: darken($color-lightgrey, 40);
+$brand-primary: #0DB4FF;
+
+$video-color: lighten($color-blue, 10);
+$website-color: $color-red;
+$overig-color: $color-green;
+
+$hover-color: $brand-primary;
+
+$background-color: lighten($color-lightgrey, 5);
+
+$max-container-width: 1920px;

@@ -1,11 +1,11 @@
-/* vendors */
+/* Vendors */
 @import "bootstrap";
-// @import "node_modules/font-awesome/scss/_variables.scss";
-//
-// $fa-font-path: "node_modules/font-awesome/fonts";
 
-/* mixins */
+/* Variables */
+@import "_variables";
+
+/* Mixins */
 @import "_mixins";
 
-/* custom */
+/* Custom */
 @import "_style";

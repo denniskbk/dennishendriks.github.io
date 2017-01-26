@@ -1,9 +1,13 @@
 ## Dennis Hendriks Portfolio 2017
 
+My project portfolio is build with reactJS. The website is fully responsive.
+I used css(scss) to add some effects and animations.
+
+The project uses Jarn to install the dependencies and Webpack to bundle the .js and .scss files.
+
+
 ### TODO
-* Refactor some to use react correctly
 * Test Components -> JEST?
-* Implement infinite scroll
 * Update url specified on opened item or filtered page
 * Optimize performance
 * Fix deprecated Synchronous XMLHttpRequest -> in getBlocks() function
