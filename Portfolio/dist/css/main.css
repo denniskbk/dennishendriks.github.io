@@ -5782,7 +5782,7 @@ section {
   margin: 0 auto;
   margin-top: 20px; }
 
-h1 {
+h2 {
   margin: 0;
   font-size: 1.5em;
   text-align: center;
@@ -5998,7 +5998,7 @@ div:focus {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center; }
-    .item-container .list__item h1 {
+    .item-container .list__item h2 {
       z-index: 1;
       text-shadow: 0 0 55px #000; }
     .item-container .list__item div {
@@ -6023,7 +6023,7 @@ div:focus {
       opacity: 0;
       visibility: hidden;
       color: #FFF; }
-      .item-container .list__item .item__description h1 {
+      .item-container .list__item .item__description h2 {
         bottom: auto;
         top: 35px; }
       .item-container .list__item .item__description p {

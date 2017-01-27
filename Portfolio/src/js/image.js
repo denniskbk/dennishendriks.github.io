@@ -29,7 +29,7 @@ class Image extends React.Component {
 
     render() {
         const { opacity, backgroundImage, isLoading } = this.state;
-        const { src, title, type, description, classNames } = this.props;
+        const { src, title, type, description, year, classNames } = this.props;
 
         if (isLoading) {
             return (
@@ -40,9 +40,9 @@ class Image extends React.Component {
         return (
             <div className={classNames} src={src}
                 style={{ opacity, backgroundImage }} >
-                <h1> {title} </h1>
+                <h2> {title} </h2>
                 <div className='item__description'>
-                    <h1>{type}</h1>
+                    <h2>{type} ({year})</h2>
                     <i className='icon'></i>
                     <p>{description}</p>
                 </div>

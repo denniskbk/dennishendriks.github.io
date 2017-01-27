@@ -26,7 +26,10 @@ class Item extends React.Component {
                     className={`item-container col-xs-12 col-sm-6 col-md-4 col-lg-3 ${block.type}`}
                     onClick={() => handleClick(index)}>
                     <Image src={imageSrc} classNames={`list__item ${divClass}`}
-                        title={block.title} type={block.type} description={block.description} />
+                        title={block.title}
+                        type={block.type}
+                        description={block.description}
+                        year={block.year}/>
                 </div>
             </a>
         );

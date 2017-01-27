@@ -14,7 +14,6 @@ class Popup extends React.Component {
      * Close and reset popup
      */
     closePopup() {
-        window.location.href = '#';
         this.setState({
             currentIndex: 0,
         });
@@ -92,6 +91,7 @@ class Popup extends React.Component {
         if (block.videoType === 'youtube') {
             videoSrc = `https://www.youtube.com/embed/${block.videoUrl}?rel=0&amp;showinfo=0&amp;enablejsapi=1`;
         } else {
+            document.getElementsByClassName('popup-video')[0].src = '';
             style = {
                 backgroundImage: `url('${block.image}')`,
             };
@@ -108,7 +108,7 @@ class Popup extends React.Component {
                             style={style} allowfullscreen>
                         </iframe>
                         <div className='popup-content'>
-                            <h2> {block.title} </h2>
+                            <h3> {block.title} ({block.year})</h3>
                             {block.description} <br /> <br />
                             <b> Klant: </b> <br />
                             {block.client} <br /> <br />

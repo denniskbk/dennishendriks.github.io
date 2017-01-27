@@ -10,7 +10,7 @@ section {
     margin-top: 20px;
 }
 
-h1 {
+h2 {
     margin: 0;
     font-size: 1.5em;
     text-align: center;
@@ -180,7 +180,7 @@ div {
         background-repeat: no-repeat;
         background-position: top center;
 
-        h1 {
+        h2 {
             z-index: 1;
             text-shadow: 0 0 55px $color-black;
         }
@@ -213,7 +213,7 @@ div {
             visibility: hidden;
             color: $color-white;
 
-            h1 {
+            h2 {
                 bottom: auto;
                 top: 35px;
             }
