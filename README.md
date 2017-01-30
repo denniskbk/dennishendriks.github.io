@@ -3,7 +3,7 @@
 My project portfolio is build with reactJS. The website is fully responsive.
 I used css(scss) to add some effects and animations.
 
-The project uses Jarn to install the dependencies and Webpack to bundle the .js and .scss files.
+The project uses Yarn to install the dependencies and Webpack to bundle the .js and .scss files.
 
 <http://dennishendriks.github.io/Portfolio> 
 
