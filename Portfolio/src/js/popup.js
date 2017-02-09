@@ -111,9 +111,13 @@ class Popup extends React.Component {
                         <div className='popup-content'>
                             <h3> {block.title} ({block.year})</h3>
                             {block.description} <br /> <br />
-                            <b> Klant: </b> <br />
+                            {block.client &&
+                                <b> Klant: </b>
+                            }<br />
                             {block.client} <br /> <br />
-                            <b> Technologie: </b> <br />
+                            {block.technology &&
+                                <b> Technologie: </b>
+                            }<br />
                             {block.technology} <br />
                             {currentIndex > 0 &&
                                 <a href='#popup' className='item-nav prev'
