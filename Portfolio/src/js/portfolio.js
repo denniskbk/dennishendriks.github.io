@@ -4,7 +4,6 @@ import $ from 'jquery';
 import Item from './item.js';
 import Popup from './popup.js';
 
-
 class Portfolio extends React.Component {
     constructor(props) {
         super(props);
@@ -76,7 +75,6 @@ class Portfolio extends React.Component {
             <Item key={index} block={block} index={index}
                 handleClick={this.handleClick.bind(this)} />
         );
-
         const selectedBlock = this.getSelectedBlock();
 
         return (

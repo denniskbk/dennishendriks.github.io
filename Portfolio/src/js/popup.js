@@ -91,7 +91,8 @@ class Popup extends React.Component {
         if (block.videoType === 'youtube') {
             videoSrc = `https://www.youtube.com/embed/${block.videoUrl}?rel=0&amp;showinfo=0&amp;enablejsapi=1`;
         } else {
-            document.getElementsByClassName('popup-video')[0].src = '';
+            // document.getElementsByClassName('popup-video')[0].src = '';
+            videoSrc = '';
             style = {
                 backgroundImage: `url('${block.image}')`,
             };
