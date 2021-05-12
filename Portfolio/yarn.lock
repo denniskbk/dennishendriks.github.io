@@ -1856,7 +1856,7 @@ eslint-plugin-jsx-a11y@1.5.3:
     jsx-ast-utils "^1.0.0"
     object-assign "^4.0.1"
 
-eslint-plugin-react@^6.9.0:
+eslint-plugin-react@6.9.0:
   version "6.9.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-6.9.0.tgz#54c2e9906b76f9d10142030bdc34e9d6840a0bb2"
   dependencies:
@@ -3110,8 +3110,8 @@ merge-descriptors@1.0.1:
   resolved "https://registry.yarnpkg.com/merge-descriptors/-/merge-descriptors-1.0.1.tgz#b00aaa556dd8b44568150ec9d1b953f3f90cbb61"
 
 merge@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/merge/-/merge-1.2.0.tgz#7531e39d4949c281a66b8c5a6e0265e8b05894da"
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/merge/-/merge-1.2.1.tgz#38bebf80c3220a8a487b6fcfb3941bb11720c145"
 
 methods@~1.1.2:
   version "1.1.2"
@@ -3681,7 +3681,7 @@ postcss-load-plugins@^2.2.0:
     cosmiconfig "^2.1.1"
     object-assign "^4.1.0"
 
-postcss-loader@^1.2.2:
+postcss-loader@1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-1.2.2.tgz#bbf4e19a8cde85597e0c9bfd96015fe775a157ac"
   dependencies:
@@ -4151,7 +4151,7 @@ sass-lint@1.10.2:
     path-is-absolute "^1.0.0"
     util "^0.10.3"
 
-sass-loader@^4.1.1:
+sass-loader@4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-4.1.1.tgz#79ef9468cf0bf646c29529e1f2cba6bd6e51c7bc"
   dependencies:
